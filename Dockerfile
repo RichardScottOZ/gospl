@@ -39,14 +39,12 @@ USER jovyan
 
 
 ## These are supplied by the build script
-## build-dockerfile.sh
-
 ARG IMAGENAME_ARG
 ARG PROJ_NAME_ARG=gospl
 ARG NB_PORT_ARG=8888
 ARG NB_PASSWD_ARG=""
 ARG NB_DIR_ARG
-ARG START_NB_ARG=" "
+ARG START_NB_ARG=""
 
 # The args need to go into the environment so they
 # can be picked up by commands/templates (defined previously)
