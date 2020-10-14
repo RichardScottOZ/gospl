@@ -26,7 +26,7 @@ RUN addgroup jovyan  || true
 RUN usermod -a -G jovyan jovyan || true
 
 RUN mkdir -p /usr/local/files && chown -R jovyan:jovyan /usr/local/files
-ADD --chown=jovyan:jovyan scripts  /usr/local/files
+ADD --chown=jovyan:jovyan scripts /usr/local/files
 ENV PATH=/usr/local/files:${PATH}
 
 WORKDIR /live
