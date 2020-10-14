@@ -32,7 +32,7 @@ ENV PATH=/usr/local/files:${PATH}
 #RUN rm -rf /live/lib /live/share
 
 WORKDIR /live
-ADD --chown=jovyan:jovyan user_guide .
+ADD --chown=jovyan:jovyan notebooks .
 
 # change ownership of everything
 ENV NB_USER jovyan
