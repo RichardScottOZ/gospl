@@ -32,7 +32,7 @@ ENV PATH=/usr/local/files:${PATH}
 #RUN rm -rf /live/lib /live/share
 
 WORKDIR /live
-ADD --chown=jovyan:jovyan notebooks .
+ADD --chown=jovyan:jovyan user_guide .
 
 # change ownership of everything
 ENV NB_USER jovyan
@@ -44,7 +44,7 @@ USER jovyan
 ## build-dockerfile.sh
 
 ARG IMAGENAME_ARG
-ARG PROJ_NAME_ARG=badlands
+ARG PROJ_NAME_ARG=gospl
 ARG NB_PORT_ARG=8888
 ARG NB_PASSWD_ARG=""
 ARG NB_DIR_ARG
