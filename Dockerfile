@@ -29,8 +29,6 @@ RUN mkdir -p /usr/local/files && chown -R jovyan:jovyan /usr/local/files
 ADD --chown=jovyan:jovyan scripts  /usr/local/files
 ENV PATH=/usr/local/files:${PATH}
 
-#RUN rm -rf /live/lib /live/share
-
 WORKDIR /live
 ADD --chown=jovyan:jovyan notebooks .
 
