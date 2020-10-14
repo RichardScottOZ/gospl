@@ -1,4 +1,4 @@
-FROM geodels/gospl:latest
+FROM geodels/gospl:binder
 MAINTAINER Tristan Salles
 
 ##################################################
