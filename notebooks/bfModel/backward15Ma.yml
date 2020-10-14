@@ -1,7 +1,7 @@
 name: Global model from 15 Ma to 5 Ma backward
 
 domain:
-    npdata: 'input8/elev0Ma'
+    npdata: 'input7/elev0Ma'
     flowdir: 5
     fast: True
     backward: True
@@ -33,59 +33,59 @@ sea:
 tectonic:
   - start: -15000000.
     end: -14000000.
-    mapH: 'input8/backdisp1Ma'
+    mapH: 'input7/backdisp1Ma'
   - start: -14000000.
     end: -13000000.
-    mapH: 'input8/backdisp2Ma'
+    mapH: 'input7/backdisp2Ma'
   - start: -13000000.
     end: -12000000.
-    mapH: 'input8/backdisp3Ma'
+    mapH: 'input7/backdisp3Ma'
   - start: -12000000.
     end: -11000000.
-    mapH: 'input8/backdisp4Ma'
+    mapH: 'input7/backdisp4Ma'
   - start: -11000000.
     end: -10000000.
-    mapH: 'input8/backdisp5Ma'
+    mapH: 'input7/backdisp5Ma'
   - start: -10000000.
     end: -9000000.
-    mapH: 'input8/backdisp6Ma'
+    mapH: 'input7/backdisp6Ma'
   - start: -9000000.
     end: -8000000.
-    mapH: 'input8/backdisp7Ma'
+    mapH: 'input7/backdisp7Ma'
   - start: -8000000.
     end: -7000000.
-    mapH: 'input8/backdisp8Ma'
+    mapH: 'input7/backdisp8Ma'
   - start: -7000000.
     end: -6000000.
-    mapH: 'input8/backdisp9Ma'
+    mapH: 'input7/backdisp9Ma'
   - start: -6000000.
     end: -5000000.
-    mapH: 'input8/backdisp10Ma'
+    mapH: 'input7/backdisp10Ma'
   - start: -5000000.
     end: -4000000.
-    mapH: 'input8/backdisp11Ma'
+    mapH: 'input7/backdisp11Ma'
   - start: -4000000.
     end: -3000000.
-    mapH: 'input8/backdisp12Ma'
+    mapH: 'input7/backdisp12Ma'
   - start: -3000000.
     end: -2000000.
-    mapH: 'input8/backdisp13Ma'
+    mapH: 'input7/backdisp13Ma'
   - start: -2000000.
     end: -1000000.
-    mapH: 'input8/backdisp14Ma'
+    mapH: 'input7/backdisp14Ma'
   - start: -1000000.
     end: 0.
-    mapH: 'input8/backdisp15Ma'
+    mapH: 'input7/backdisp15Ma'
 
 climate:
   - start: -15000000.
-    map: ['input8/rain0Ma','r']
+    map: ['input7/rain0Ma','r']
   - start: -10000000.
-    map: ['input8/rain5Ma','r']
+    map: ['input7/rain5Ma','r']
   - start: -5000000.
-    map: ['input8/rain10Ma','r']
+    map: ['input7/rain10Ma','r']
   - start: 0.
-    map: ['input8/rain15Ma','r']
+    map: ['input7/rain15Ma','r']
 
 output:
     dir: 'backward15Ma'

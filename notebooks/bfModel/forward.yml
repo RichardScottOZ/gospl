@@ -1,7 +1,7 @@
 name: Global model from 15 Ma to present
 
 domain:
-    npdata: 'input8/elev15Ma'
+    npdata: 'input7/elev15Ma'
     flowdir: 5
     fast: False
     backward: False
@@ -33,59 +33,59 @@ sea:
 tectonic:
   - start: -15000000.
     end: -14000000.
-    mapH: 'input8/disp15Ma'
+    mapH: 'input7/disp15Ma'
   - start: -14000000.
     end: -13000000.
-    mapH: 'input8/disp14Ma'
+    mapH: 'input7/disp14Ma'
   - start: -13000000.
     end: -12000000.
-    mapH: 'input8/disp13Ma'
+    mapH: 'input7/disp13Ma'
   - start: -12000000.
     end: -11000000.
-    mapH: 'input8/disp12Ma'
+    mapH: 'input7/disp12Ma'
   - start: -11000000.
     end: -10000000.
-    mapH: 'input8/disp11Ma'
+    mapH: 'input7/disp11Ma'
   - start: -10000000.
     end: -9000000.
-    mapH: 'input8/disp10Ma'
+    mapH: 'input7/disp10Ma'
   - start: -9000000.
     end: -8000000.
-    mapH: 'input8/disp9Ma'
+    mapH: 'input7/disp9Ma'
   - start: -8000000.
     end: -7000000.
-    mapH: 'input8/disp8Ma'
+    mapH: 'input7/disp8Ma'
   - start: -7000000.
     end: -6000000.
-    mapH: 'input8/disp7Ma'
+    mapH: 'input7/disp7Ma'
   - start: -6000000.
     end: -5000000.
-    mapH: 'input8/disp6Ma'
+    mapH: 'input7/disp6Ma'
   - start: -5000000.
     end: -4000000.
-    mapH: 'input8/disp5Ma'
+    mapH: 'input7/disp5Ma'
   - start: -4000000.
     end: -3000000.
-    mapH: 'input8/disp4Ma'
+    mapH: 'input7/disp4Ma'
   - start: -3000000.
     end: -2000000.
-    mapH: 'input8/disp3Ma'
+    mapH: 'input7/disp3Ma'
   - start: -2000000.
     end: -1000000.
-    mapH: 'input8/disp2Ma'
+    mapH: 'input7/disp2Ma'
   - start: -1000000.
     end: 0.
-    mapH: 'input8/disp1Ma'
+    mapH: 'input7/disp1Ma'
 
 climate:
   - start: -15000000.
-    map: ['input8/rain15Ma','r']
+    map: ['input7/rain15Ma','r']
   - start: -10000000.
-    map: ['input8/rain10Ma','r']
+    map: ['input7/rain10Ma','r']
   - start: -5000000.
-    map: ['input8/rain5Ma','r']
+    map: ['input7/rain5Ma','r']
   - start: 0.
-    map: ['input8/rain0Ma','r']
+    map: ['input7/rain0Ma','r']
 
 forcepaleo:
     dir: 'output-backward'
