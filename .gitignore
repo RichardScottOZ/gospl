@@ -4,8 +4,7 @@ docs/_build/*
 *.pyc
 dist
 gospl.egg-info
-fortran/_fortran-f2pywrappers.f
-fortran/_fortran-f2pywrappers2.f90
+fortran/meshparams.mod
 fortran/_fortranmodule.c
 tests/.coverage
 .coverage
